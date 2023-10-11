@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=poppins:wght@100;200;300;400;600;700&display=swap"rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="link rel="stylesheet href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>University Website Design - Easy Tutorials</title>
+</head>
+<body>
+    <section class="header">
+            <nav>
+                <a href="index.html"><img src="logo.png" alt=""></a>
+                <div class="nav-links" id="nav-links">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">COURSE</a></li>
+                        <li><a href="">BLOG</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+            <div class="text-box">
+                <h1>World's Biggest University</h1>
+                <p>
+                    Making website is now one of the easiest thing in the world. You just need to learn, HTML, CSS, <br> Javascript and you are good to go.
+                </p>
+                <a href="" class="hero-btn">Visit Us To Know More</a>
+            </div>
+            
+    </section>
+
+       <!----------Javascript for loggle Menu--------------->
+
+    <script>
+        
+         var navlinks = document.getElementById("navLinks");
+         function showMenu(){
+            navlinks.style.right = "0";
+         }
+         function hideMenu(){
+            navlinks.style.right = "-200px";
+         }
+    </script>
+
+    <!----------Course------------>
+         <section class="course">
+            <h1>Course We Offer</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="row">
+                <div class="course-col">
+                    <h3>Intermediate</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis mulla, eleifend faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus Donec sit.
+                    </p>
+                </div>
+                <div class="course-col">
+                    <h3>Degree</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis mulla, eleifend faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus Donec sit.
+                    </p>
+
+                </div>
+                <div class="course-col">
+                    <h3>Post Graduation</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis mulla, eleifend faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus Donec sit.
+                    </p>
+
+                </div>
+
+
+            </div>
+        </section>
+        <!----------Campus------------>
+            <section class="campus">
+                <h1>Our Global Campus</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <div class="row">
+                    <div class="campus-col">
+                        <img src="OIP.jpeg" alt="#">
+                        <div class="layer">
+                            <h3>Kingdom</h3>
+                        </div>
+                    </div>
+                    <div class="campus-col">
+                        <img src="OIP (3).jpeg" alt="#">
+                        <div class="layer">
+                            <h3>New YORK</h3>
+                        </div>
+                    </div>
+                    <div class="campus-col">
+                        <img src="OIP (1).jpeg" alt="#">
+                        <div class="layer">
+                            <h3>WASHINGTON</h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!---------Facilites--------->
+            <section class="facilities">
+                <h1>Our facilities</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+                <div class="row">
+                    <div class="facilities-col">
+                        <img src="OIP (2).jpeg" alt="">
+                    <h3>Largest Play Ground</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla.</p>
+                    </div>
+                    <div class="facilities-col">
+                        <img src="télécharger (1).jpeg" alt="">
+                    <h3>World Class Library</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla.</p>
+                    </div>
+                    <div class="facilities-col">
+                        <img src="télécharger.jpeg" alt="">
+                    <h3>Lasty and Healthy Food</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla.</p>
+                    </div>
+                     
+                </div>
+
+            </section>
+
+            <!---------test imonials--------->
+            <section class="test-imonials">
+                <h1>What Our Student Says </h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <div class="row">
+                    <div class="test-imonial-col">
+                        <img src="OIP (5).jpeg" alt="">
+                        <div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis mulla, eleifend faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus Donec sit.
+                            </p>
+                            <h3>Christiane Berkley</h3>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                    </div>
+                    <div class="test-imonial-col">
+                        <img src="OIP (6).jpeg" alt="">
+                        <div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis mulla, eleifend faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus Donec sit.</p> 
+                            <h3>David Byer</h3>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            
+                            <i class="fa fa-star-half-o"></i>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <!----------Call To Action------------>
+
+            <section class="cta">
+                <h1>Enroll For Our Various Online Courses Anywhare From The World</h1>
+                <a href="">CONTACT US </a>
+            </section>
+
+
+
+         </section>  
+</body>
+</html>
